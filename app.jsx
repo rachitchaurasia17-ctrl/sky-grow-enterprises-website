@@ -151,7 +151,7 @@ function Nav({ onContact }) {
             className="uc"
             style={{ fontSize: 13, letterSpacing: "0.12em", padding: "18px 28px", borderRadius: 999, border: "none", background: "var(--ink-2)", color: "var(--bg)", cursor: "pointer", textAlign: "center" }}
           >Schedule a Viewing →</button>
-          <a href="tel:+91XXXXXXXXXX" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)", textAlign: "center" }}>
+          <a href="tel:+910000000000" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)", textAlign: "center" }}>
             +91-00000-00000
           </a>
         </div>
@@ -293,7 +293,7 @@ function Hero({ active }) {
               View The Portfolio
               <span className="arrow">→</span>
             </a>
-            <a href="tel:+91XXXXXXXXXX" className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "rgba(255,255,255,0.72)" }}>
+            <a href="tel:+910000000000" className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "rgba(255,255,255,0.72)" }}>
               +91-00000-00000
             </a>
           </div>
@@ -394,7 +394,7 @@ function Cursor() {
 /* ───────────────────── Field Notes (live ticker) ───────────────────── */
 function FieldNotes() {
   const notes = [
-    { tag: "Mandate", text: "3 BR kothi · Sector 79 · Mohali" },
+    { tag: "Mandate", text: "3 BR kothi · Prime Location" },
     { tag: "Closed",  text: "Plot 500 sq yd · Sector 88 · last week" },
     { tag: "Added",   text: "SCO · Sector 67 · commercial" },
     { tag: "Viewing", text: "Today · 4:00 PM · with the desk" },
@@ -898,7 +898,7 @@ function Viewing({ p }) {
             <button type="submit" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", padding: "16px 28px", borderRadius: 999, background: "var(--ink-2)", color: "var(--bg)", border: "none", cursor: "pointer" }}>
               Request Viewing →
             </button>
-            <a href="tel:+91XXXXXXXXXX" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
+            <a href="tel:+910000000000" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
               or call +91-00000-00000
             </a>
           </div>
@@ -1143,7 +1143,7 @@ function ReviewCard({ r }) {
 /* ───────────────────── Journal (legacy — unused) ───────────────────── */
 function Journal() {
   const notes = [
-    { tag: "Note · Field", date: "06 / 26", title: "Sector 79 — the quiet inflection point.", snip: "Three closed mandates in eight weeks suggest the floor has moved. Where the next ₹1.4 Cr buys you, and where we would not." },
+    { tag: "Note · Field", date: "06 / 26", title: "Local Market — the quiet inflection point.", snip: "Three closed mandates in eight weeks suggest the floor has moved. Where the next ₹1.4 Cr buys you, and where we would not." },
     { tag: "Note · Title", date: "05 / 26", title: "Reading a fard before the broker does.", snip: "A working memo on jamabandi for first-time buyers in Punjab — and the three lines we always check first." },
     { tag: "Note · Hold",  date: "04 / 26", title: "Plot or builder floor — the long view.", snip: "An honest five-year frame for HNI buyers weighing land against vertical inventory in the tri-city micro-markets." },
   ];
@@ -1258,7 +1258,7 @@ function DeskBanner() {
             <div className="desk-eyebrow">Speak to the desk</div>
             <div className="desk-row">
               <div className="desk-row-k">Direct line</div>
-              <div className="desk-row-v"><a href="tel:+91XXXXXXXXXX">+91-00000-00000</a></div>
+              <div className="desk-row-v"><a href="tel:+910000000000">+91-00000-00000</a></div>
             </div>
             <div className="desk-row">
               <div className="desk-row-k">By message</div>
@@ -1288,7 +1288,7 @@ function FooterMast() {
           <div>
             <div className="foot-h">The Desk</div>
             <ul className="foot-list">
-              <li><a href="tel:+91XXXXXXXXXX">+91-00000-00000</a></li>
+              <li><a href="tel:+910000000000">+91-00000-00000</a></li>
               <li><a href="mailto:info@skygrowenterprises.com">info@skygrowenterprises.com</a></li>
               <li><span>Commercial Hub, Patiala Road, Zirakpur, Punjab</span></li>
               </ul>
@@ -1320,7 +1320,7 @@ function FooterMast() {
             <ul className="foot-list">
               <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-              <li><a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp · Direct line</a></li>
+              <li><a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer">WhatsApp · Direct line</a></li>
             </ul>
           </div>
         </div>
@@ -1349,8 +1349,8 @@ function ContactBanner() {
             </h2>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 12, alignItems: "flex-end" }}>
-            <a href="tel:+91XXXXXXXXXX" className="clash" style={{ fontSize: "clamp(22px,3.5vw,28px)", letterSpacing: "-0.02em", fontWeight: 600 }}>+91-00000-00000</a>
-            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" style={{ fontSize: 16, color: "var(--mute)" }}>WhatsApp · +91-00000-00000</a>
+            <a href="tel:+910000000000" className="clash" style={{ fontSize: "clamp(22px,3.5vw,28px)", letterSpacing: "-0.02em", fontWeight: 600 }}>+91-00000-00000</a>
+            <a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer" style={{ fontSize: 16, color: "var(--mute)" }}>WhatsApp · +91-00000-00000</a>
             <a href="mailto:info@skygrowenterprises.com" className="uc" style={{ fontSize: 11, letterSpacing: "0.16em", marginTop: 8, borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
               info@skygrowenterprises.com
             </a>
@@ -1379,7 +1379,7 @@ function Footer() {
           <FooterCol head="Navigate" links={[["Portfolio", "#portfolio"], ["Practice", "#practice"], ["Services", "#insights"], ["About", "#about"]]} />
           <FooterCol head="Practice" links={[["Residential", "#"], ["Commercial", "#"], ["Land & Plots", "#"], ["NRI Services", "#"]]} />
           <FooterCol head="Contact" links={[
-            [<span><IconPhone/> +91-00000-00000</span>, "tel:+91XXXXXXXXXX"],
+            [<span><IconPhone/> +91-00000-00000</span>, "tel:+910000000000"],
             [<span><IconMail/> info@skygrowenterprises.com</span>, "mailto:info@skygrowenterprises.com"],
             [<span><IconPin/> Commercial Hub, Patiala Road, Zirakpur, Punjab</span>, "#"],
             [<span><IconInsta/> @sky-grow-enterprises</span>, "#"],
@@ -1447,7 +1447,7 @@ function InstagramFab() {
 /* ───────────────────── WhatsApp Float ───────────────────── */
 function WhatsAppFab() {
   const [hover, setHover] = useState(false);
-  const phone = "91XXXXXXXXXX";
+  const phone = "910000000000";
   const text = encodeURIComponent("Hello Sky Grow Enterprises — I would like to enquire about a property listing.");
   return (
     <a

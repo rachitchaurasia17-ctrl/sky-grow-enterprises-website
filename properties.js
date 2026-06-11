@@ -74,7 +74,7 @@ window.TR_PROPERTIES = window.RS_PROPERTIES = [
     title: "3 BHK Apartment",
     type: "Residential",
     subType: "Apartment",
-    locality: "Sector 79, Mohali",
+    locality: "Prime Location",
     plotSize: "—",
     builtUp: "1,820 Sq. Ft.",
     bedrooms: 3,

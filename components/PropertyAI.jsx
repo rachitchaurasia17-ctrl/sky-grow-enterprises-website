@@ -95,7 +95,7 @@ function PropertyAI({ onSchedule }) {
   };
 
   const quick = [
-    "What's on offer in Sector 79?",
+    "What's currently on offer?",
     "Plot vs builder floor for investment?",
     "Book a viewing this week",
   ];

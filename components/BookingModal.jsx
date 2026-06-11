@@ -246,7 +246,7 @@ function BookingModal({ open, onClose }) {
               <button type="submit" disabled={!canSubmit} className="bm-cta">
                 {sending ? "Holding your slot…" : "Confirm Reservation →"}
               </button>
-              <a href="tel:+91XXXXXXXXXX" className="bm-call">Or call the desk · +91-00000-00000</a>
+              <a href="tel:+910000000000" className="bm-call">Or call the desk · +91-00000-00000</a>
             </aside>
           </form>
         )}
