@@ -1197,9 +1197,9 @@ function About() {
           </div>
 
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Third+Rock+Realty+SCO+1+Sector+79+SAS+Nagar"
+            href="https://www.google.com/maps/search/?api=1&query=Sky+Grow+Enterprises+Commercial+Hub%2C+Patiala+Road%2C+Zirakpur%2C+Punjab"
             target="_blank" rel="noopener noreferrer"
-            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=Third+Rock+Realty+SCO+1+Sector+79+SAS+Nagar", "_blank", "noopener,noreferrer"); }}
+            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=Sky+Grow+Enterprises+Commercial+Hub%2C+Patiala+Road%2C+Zirakpur%2C+Punjab", "_blank", "noopener,noreferrer"); }}
             className="gs-wrap"
             style={{ position: "relative", display: "block", aspectRatio: "16/10", borderRadius: 6, overflow: "hidden", background: "#1e1e1e" }}
           >
