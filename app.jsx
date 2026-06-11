@@ -285,7 +285,7 @@ function Hero({ active }) {
           <div>
             <div className="uc" style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", letterSpacing: "0.22em", marginBottom: 8 }}>The Office</div>
             <div className="clash" style={{ fontSize: 16, letterSpacing: "-0.02em", color: "#ffffff", fontWeight: 500 }}>
-              SCO 1, 2nd Floor · Sector 79, SAS Nagar
+              Commercial Hub, Patiala Road, Zirakpur, Punjab
             </div>
           </div>
           <div style={{ display: "flex", gap: 18, alignItems: "center", flexWrap: "wrap" }}>
@@ -1218,7 +1218,7 @@ function About() {
         <div>
           <div className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "var(--mute)", marginBottom: 24 }}>◇ About Us</div>
           <p className="clash" style={{ fontSize: "clamp(24px, 3.6vw, 48px)", letterSpacing: "-0.035em", lineHeight: 1.15, margin: 0, fontWeight: 500 }}>
-            Sky Grow Enterprises is a <span className="serif-it">GMADA</span> empanelled and <span className="serif-it">RERA</span> registered firm specializing in residential, commercial and land mandates across the Mohali tri-city. Operating from SCO 1, 2nd Floor in Sector 79.
+            Sky Grow Enterprises is a <span className="serif-it">GMADA</span> empanelled and <span className="serif-it">RERA</span> registered firm specializing in residential, commercial and land mandates across the Mohali tri-city. Operating from Commercial Hub, Patiala Road, Zirakpur, Punjab.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 24, marginTop: 36, borderTop: "1px solid var(--line)", paddingTop: 28 }}>
             <Credit k="Practice" v="Residential · Commercial · Land" />
@@ -1266,7 +1266,7 @@ function DeskBanner() {
             </div>
             <div className="desk-row">
               <div className="desk-row-k">In person</div>
-              <div className="desk-row-v">SCO 1, 2nd Floor<br/>Sector 79 · SAS Nagar · Punjab · 140308</div>
+              <div className="desk-row-v">Commercial Hub, Patiala Road, Zirakpur, Punjab</div>
             </div>
             <button onClick={openBook} className="desk-button">
               Schedule a viewing →
@@ -1290,9 +1290,8 @@ function FooterMast() {
             <ul className="foot-list">
               <li><a href="tel:+91XXXXXXXXXX">+91-00000-00000</a></li>
               <li><a href="mailto:info@skygrowenterprises.com">info@skygrowenterprises.com</a></li>
-              <li><span>SCO 1, 2nd Floor</span></li>
-              <li><span>Sector 79 · SAS Nagar · 140308</span></li>
-            </ul>
+              <li><span>Commercial Hub, Patiala Road, Zirakpur, Punjab</span></li>
+              </ul>
           </div>
           <div>
             <div className="foot-h">Practice</div>
@@ -1374,7 +1373,7 @@ function Footer() {
               <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>Sky Grow Enterprises</div>
             </div>
             <p style={{ marginTop: 20, fontSize: 14, lineHeight: 1.65, maxWidth: 300 }}>
-              Real estate agency & property experts in the Mohali tri-city. GMADA/RERA accredited. SCO 1, 2nd Floor, Sector 79, SAS Nagar, Punjab 140308.
+              Real estate agency & property experts in the Mohali tri-city. GMADA/RERA accredited. Commercial Hub, Patiala Road, Zirakpur, Punjab.
             </p>
           </div>
           <FooterCol head="Navigate" links={[["Portfolio", "#portfolio"], ["Practice", "#practice"], ["Services", "#insights"], ["About", "#about"]]} />
@@ -1382,7 +1381,7 @@ function Footer() {
           <FooterCol head="Contact" links={[
             [<span><IconPhone/> +91-00000-00000</span>, "tel:+91XXXXXXXXXX"],
             [<span><IconMail/> info@skygrowenterprises.com</span>, "mailto:info@skygrowenterprises.com"],
-            [<span><IconPin/> SCO 1, Sector 79, SAS Nagar</span>, "#"],
+            [<span><IconPin/> Commercial Hub, Patiala Road, Zirakpur, Punjab</span>, "#"],
             [<span><IconInsta/> @sky-grow-enterprises</span>, "#"],
             [<span><IconYouTube/> @sky-grow-enterprises</span>, "#"],
           ]} />
